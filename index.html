@@ -6,33 +6,57 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./styles/style.css" />
 
-    <title> Mockup4 </title>
+    <title> Mockup3 </title>
   </head>
   <body>   
-    <div id="main-body" >
-      <header>
-        <h3 id = "title">My Webpage</h3>
-        <div> 
-          <img style="width: 40px;" src="./img/left.png" alt="">
-          <img style="width: 40px;" src="./img/right.png" alt="">
-          <img style="width: 40px;" src="./img/cancel.png" alt="">
-          <img style="width: 40px;" src="./img/house.png" alt="">
-          <input type = "text">
-          <input type = "text">
-          <img style="width: 10px;" src = "./img/searchIcon.png" alt=""> 
+      <div id="main-body" >   
+        <div id = top>
+          <h3>My Webpage</h3>
+          <p> 
+            <img style="width: 40px;" src="./img/left.png" alt="">
+            <img style="width: 40px;" src="./img/right.png" alt="">
+            <img style="width: 40px;" src="./img/cancel.png" alt="">
+            <img style="width: 40px;" src="./img/house.png" alt="">
+            <input type = "text">
+            <input type = "text">
+            <img style="width: 10px;" src = "./img/searchIcon.png" alt=""> 
+          </p>
         </div>
-      </header>
-      <div id = "middlebody">
-        <h1 style="margin-left:20px;">Your Information</h1>
-          <div style = "margin-left:40px">
-            <div>Name</div>
-            <div>Email</div>
-            <div>Phone</div>
-          </div>
+        <div id = "middlebody">
+          <h2 style="margin-left:20px;">Your Information</h2>
+            <div style = "margin-left:40px">
+              <div>
+                <table>
+                  <tr>
+                    <td style="border-style:hidden">Name:</td>
+                    <td><input type = "text"></td>
+                  </tr>
+                  <tr>
+                    <td>Email:</td>
+                    <td><input type = "text"></td>
+                  </tr>
+                  <tr>
+                    <td>Phone:</td>
+                    <td><input type = "text"></td>
+                  </tr>
+                </table>
+                <table>
+                  <td><input type = "checkbox"></td>
+                  <td style="border-style:hidden">From San Francisco</td>
+                  <td><input type = "checkbox"></td>
+                  <td style="border-style:hidden">Not From San Francisco</td>
+                </table>
+                
+                <div id=submitbutton>
+                  <input type="submit" value = "Submit">
+                </div>
+            </div>
+            </div>
         </div>
-      <footer >
-        <div style = "padding:20px"> // </div>
-      </footer>
-    </div>  
+
+        <footer>        
+            <div style ="text-align:right;"> // </div>
+        </footer>
+      </div>  
   </body>      
 </html>

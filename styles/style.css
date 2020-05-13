@@ -1,7 +1,32 @@
 #main-body{
-  border:red, solid;
+  border:black solid 5px;
+  font-family: "Comic Sans MS", "sans-serif";
+}
+
+h3{
+  text-align: center;
+}
+#top{
+  border-bottom:solid 5px;
+  background-color: darkgray;
 }
 
 #middlebody{
   height: 600px;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 20px 50px;
+}
+
+footer {
+  border-top: 5px solid;
+  height: 20px;
+  background-color: darkgrey;
+  padding: 20px
+}
+
+#submitbutton{
+  box-shadow: 10px 10px black;
 }
