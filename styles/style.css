@@ -1,19 +1,31 @@
 #main-body{
-  border:black solid 5px;
+  /*border:black solid 5px*/
   font-family: "Comic Sans MS", "sans-serif";
+  padding: none;
 }
 
 h3{
   text-align: center;
 }
 #top{
-  border-bottom:solid 5px;
+  border:solid 5px;
   background-color: darkgray;
+  margin:none;
+}
+
+#icons{
+  display: relative;
 }
 
 #middlebody{
+  border-left: solid 5px;
+  border-right:solid 5px;
   height: 600px;
+  margin: none;
+  padding: none;
 }
+
+
 
 table {
   border-collapse: separate;
@@ -21,7 +33,7 @@ table {
 }
 
 footer {
-  border-top: 5px solid;
+  border: 5px solid;
   height: 20px;
   background-color: darkgrey;
   padding: 20px
@@ -29,4 +41,5 @@ footer {
 
 #submitbutton{
   box-shadow: 10px 10px black;
+  width:60px;
 }
