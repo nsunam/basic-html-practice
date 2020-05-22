@@ -10,19 +10,26 @@
   </head>
   <body>   
       <div id="main-body" >   
-        <div id = top>
-          <h3>My Webpage</h3>
-          <div id = "icons"> 
-            <img style="width: 40px; padding-right:2px" src="./img/left.png" alt="">
-            <img style="width: 40px; padding-right:2px" src="./img/right.png" alt="">
-            <img style="width: 40px; padding-right:2px" src="./img/cancel.png" alt="">
-            <img style="width: 40px; padding-right:2px" src="./img/house.png" alt="">
-            <input style="width: 30%; height:auto; padding-right:5px; padding-bottom:5px" type="text">
-            <img style="width: 10px; padding-bottom:5px" src = "./img/searchIcon.png" alt=""> 
-            <input style = "width:10%; height:auto; padding-bottom:5px" type = "text">            
-          </div>
-        </div>
-        <div id = "middlebody">
+        <header>
+            <h3>My Webpage</h3>
+            <div id = secondline>
+              <div id = "icons"> 
+                <img src="./img/left.png" alt="back">
+                <img src="./img/right.png" alt="back">
+                <img src="./img/cancel.png" alt="back">
+                <img src="./img/house.png" alt="back">
+              </div>
+              <div id = "fields">
+                <input type = "text">
+                <div id="searchInput">
+                  <input type="text">
+                  <img src = "./img/searchIcon.png" alt="back"> 
+                </div>
+              </div>
+            </div>      
+          <!--</div>-->
+        </header>
+      <div id = "middlebody">
           <div style="margin-left:20px;font-size:20px;">Your Information</div>
             <div style = "margin-left:40px">
               <div>
@@ -45,18 +52,16 @@
                   <td style="border-style:hidden">From San Francisco</td>
                   <td><input type = "checkbox"></td>
                   <td style="border-style:hidden">Not From San Francisco</td>
-                </table>
-                
+                </table>             
                 <div id=submitbutton>
                   <input type="submit" value = "Submit">
                 </div>
             </div>
             </div>
-        </div>
-
-        <footer>        
-            <div style ="text-align:right;"> // </div>
-        </footer>
-      </div>  
+      </div>
+      <footer>        
+        <div style ="text-align:right;"> // </div>
+      </footer>
+    </div>  
   </body>      
 </html>

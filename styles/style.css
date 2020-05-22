@@ -1,31 +1,74 @@
-#main-body{
-  /*border:black solid 5px*/
+body {
   font-family: "Comic Sans MS", "sans-serif";
-  padding: none;
+  margin: none ;
+  min-width: 530px;
+  height: 100vh;
+}
+
+header {
+  background-color: darkgrey;
+  border: solid 1px black;
+  height: 15vh;
 }
 
 h3{
   text-align: center;
 }
-#top{
-  border:solid 5px;
-  background-color: darkgray;
-  margin:none;
+
+#secondline{
+  width: 100%;
+  display: flex;
 }
 
 #icons{
-  display: relative;
+  width: 20%;
+  padding: 1px; 
+}
+
+#icons img{
+  width: 20%;
+ }
+
+#fields{
+  width: 80%;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#fields input {
+  position: relative;
+  width: 75%;
+  height: 5vh;
+}
+
+#searchInput {
+  position: relative;
+  margin-left: 20px;
+  width: 19%;
+}
+
+#searchInput input {
+  position: absolute;
+  width: 100%;
+  height: 5vh;
+  border-radius: 10px;
+}
+
+#searchInput img {
+  width: 20px;
+  position: absolute;
+  padding: 15px;
 }
 
 #middlebody{
-  border-left: solid 5px;
-  border-right:solid 5px;
-  height: 600px;
+  border-left: solid 1px;
+  border-right:solid 1px;
+  min-height: 600px;
   margin: none;
-  padding: none;
+  min-width: 530px;
+  padding-top: 50px;
+  padding-left: 50px;
 }
-
-
 
 table {
   border-collapse: separate;
@@ -33,13 +76,14 @@ table {
 }
 
 footer {
-  border: 5px solid;
-  height: 20px;
+  border: 1px solid;
+  min-height: 4vh;
   background-color: darkgrey;
-  padding: 20px
+  padding: 20px;
 }
 
 #submitbutton{
   box-shadow: 10px 10px black;
   width:60px;
 }
+
