@@ -1,14 +1,15 @@
 body {
   font-family: "Comic Sans MS", "sans-serif";
   margin: 0 ;
-  /*border: 1px solid;*/
+  border: 1px solid;
   min-width: 530px;
   height: 100vh;
 }
-
+/*
 #main-body {
   border: 1px solid;
 }
+*/
 
 header {
   background-color: darkgrey;
@@ -55,21 +56,21 @@ h3{
 #searchInput input {
   position: absolute;
   width: 100%;
-  /*min-height: 4vh;*/
+  height: 80%;
   border-radius: 10px;
 }
 
 #searchInput img {
   width: 10px;
   position: absolute;
-  padding: 5px;
+  padding: 10px;
 }
 
 #middlebody {
   border-left: solid 1px;
   border-right:solid 1px;
   min-height: 80vh;
-  margin: none;
+  margin: 0;
   min-width: 530px;
   padding-top: 50px;
   padding-left: 50px;
