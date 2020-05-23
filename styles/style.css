@@ -41,10 +41,8 @@ h3{
 }
 
 #fields input {
- /* position: relative;*/
-  width: 70%;
- /* height: 5vh;*/
-}
+   width: 70%;
+ }
 
 #searchInput {
   position: relative;
@@ -55,12 +53,12 @@ h3{
 #searchInput input {
   position: absolute;
   width: 100%;
-  /*min-height: 4vh;*/
+  height: 90%;
   border-radius: 10px;
 }
 
 #searchInput img {
-  width: 10px;
+  width: 15%;
   position: absolute;
   padding: 5px;
 }
