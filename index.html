@@ -6,62 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./styles/style.css" />
 
-    <title> Mockup4 </title>
+    <title> Mockup2 </title>
   </head>
   <body>   
-      <div id="main-body" >   
-        <header>
-            <h3>My Webpage</h3>
-            <div id = secondline>
-              <div id = "icons"> 
-                <img src="./img/left.png" alt="back">
-                <img src="./img/right.png" alt="back">
-                <img src="./img/cancel.png" alt="back">
-                <img src="./img/house.png" alt="back">
+    <div id="main-body" >   
+      <header>
+          <h3>My Webpage</h3>
+          <div id = secondline>
+            <div id = "icons"> 
+              <img src="./img/left.png" alt="back">
+              <img src="./img/right.png" alt="back">
+              <img src="./img/cancel.png" alt="back">
+              <img src="./img/house.png" alt="back">
+            </div>
+            <div id = "fields">
+              <input type = "text">
+              <div id="searchInput">
+                <input type="text">
+                <img src = "./img/searchIcon.png" alt="back"> 
               </div>
-              <div id = "fields">
-                <input type = "text">
-                <div id="searchInput">
-                  <input type="text">
-                  <img src = "./img/searchIcon.png" alt="back"> 
-                </div>
-              </div>
-            </div>    
-        </header>
-        <section>
-          <div id = "middlebody">
-              <div style="margin-left:20px;font-size:20px;">Your Information</div>
-                <div style = "margin-left:40px">
-                  <div>
-                    <table>
-                      <tr>
-                        <td style="border-style:hidden">Name:</td>
-                        <td><input type = "text"></td>
-                      </tr>
-                      <tr>
-                        <td>Email:</td>
-                        <td><input type = "text"></td>
-                      </tr>
-                      <tr>
-                        <td>Phone:</td>
-                        <td><input type = "text"></td>
-                      </tr>
-                    </table>
-                    <table>
-                      <td><input type = "checkbox"></td>
-                      <td style="border-style:hidden">From San Francisco</td>
-                      <td><input type = "checkbox"></td>
-                      <td style="border-style:hidden">Not From San Francisco</td>
-                    </table>             
-                    <div id=submitbutton>
-                      <input type="submit" value = "Submit">
-                    </div>
-                </div>
-                </div>
-          </div>
-        </section>
+            </div>
+          </div>    
+      </header>
+      <section>
+        <div id = "middlebody">
+            <h2> Galvanize Profile Page </h2>
+            <div id =photoWcaption> 
+                <img src="data:image/png;base64,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" />
+                <figcaption> Fig. 1 - Galvanize </figcaption>
+            </div>
+        </div>
+      </section>
       <footer>        
-        <div style ="text-align:right;"> // </div>
+        <section> // </section>
       </footer>
     </div>  
   </body>      
