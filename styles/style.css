@@ -10,26 +10,26 @@ header {
   border: solid 1px black;
 }
 
-h3{
+h3 {
   text-align: center;
   margin: 0;
 }
 
-#secondline{
+#secondline {
   width: 100%;
   display: flex;
 }
 
-#icons{
+#icons {
   width: 20%;
   padding: 1px; 
 }
 
-#icons img{
+#icons img {
   width: 20%;
 }
 
-#fields{
+#fields {
   width: 80%;
   display: flex;
   margin-bottom: 10px;
@@ -64,7 +64,6 @@ h3{
   min-width: 530px;
   padding-top: 20px;
   padding-left: 50px;
-
 }
 /*
 table {
@@ -73,14 +72,40 @@ table {
 }
 */
 
-#photoWcaption {
-  margin-left: 50px;
+#twoCols {
+  font-size: 20px;
+  /*margin-left: 60px;*/
+  display: flex;
+  text-align:left;
+}
+/*
+#twoCols ul{
+  list-style-type: none;
+ /* width:fit-content;*/
+ /*
+}
+*/
 
+#petCol {
+  list-style-type: none;
+  border: solid black 2px;
+  padding: 20px;
 }
 
-#photoWcaption img {
-  border: solid 1px black;
-  width: 75%; 
+#cityCol {
+  margin-left: 100px;
+  list-style-type: none;
+  border: solid black 2px;
+  padding: 20px;
+}
+
+#button {
+  margin-top: 50px;
+  margin-left: 30%;
+  border: solid black 2px;
+  background-position-x: center;
+  padding: 5px;
+  width: fit-content;
 }
 
 footer {
